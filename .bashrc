@@ -32,4 +32,6 @@ alias xx="sudo startxfce4"
 alias rr="ranger"
 alias sr="sudo ranger"
 alias server="ssh seth@104.237.5.13"
-
+alias vv="vim"
+alias sv="sudo vim"
+alias cc="clear"
