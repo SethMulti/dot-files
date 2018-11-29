@@ -20,7 +20,7 @@ export PS1="\[\033[38;5;6m\][\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;9m\]\u\
 
 #open apps
 alias hh="htop"
-alias gg="gtop"
+alias gg="gotop"
 alias rr="ranger"
 alias sr="sudo ranger"
 alias vv="vim"
