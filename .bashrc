@@ -25,3 +25,11 @@ export PS1="\[\033[38;5;6m\][\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;9m\]\u\
 #if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
 #    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 #fi
+
+#alias 
+alias hh="htop"
+alias xx="sudo startxfce4"
+alias rr="ranger"
+alias sr="sudo ranger"
+alias server="ssh seth@104.237.5.13"
+
