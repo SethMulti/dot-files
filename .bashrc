@@ -25,12 +25,22 @@ alias rr="ranger"
 alias sr="sudo ranger"
 alias vv="vim"
 alias sv="sudo vim"
+alias tt="urxvt"
 
 #commands
 alias cc="clear"
 alias xx="sudo startxfce4"
+alias sxx="sudo stopxfce4"
 alias server="ssh seth@104.237.5.13"
 
 #bash
 alias ebsh="sudo vim /home/seth/.bashrc"
 alias sbsh="source ~/.bashrc"
+
+#pywal
+# Import colorscheme from 'wal' asynchronously
+# &   # Run the process in the background.
+# ( ) # Hide shell job control messages.
+#(cat ~/.cache/wal/sequences &)
+# To add support for TTYs this line can be optionally added.
+#source ~/.cache/wal/colors-tty.sh
